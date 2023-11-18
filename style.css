@@ -1,0 +1,666 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: black;
+  height: 120%;
+}
+nav {
+  display: flex;
+  /* border: 1px solid white; */
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+.aa {
+  /* border: 1px solid white; */
+  /* position: absolute;
+    top:15px;
+    left: 40px; */
+  margin-left: 20px;
+  height: 20px;
+}
+.divA {
+  /* border: 1px solid white; */
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(42, 42, 42); */
+}
+.search {
+  background-color: black;
+  border: 1px solid grey;
+  border-radius: 2px;
+  width: 400px;
+  height: 30px;
+}
+.searchdiv {
+  position: absolute;
+  right: 400px;
+  display: flex;
+  /* border: 1px solid white; */
+  width: 470px;
+}
+.magnify {
+  /* border: 1px solid rgb(87, 87, 87); */
+  background-color: rgb(42, 42, 42);
+  width: 40px;
+  height: 32px;
+}
+.mic {
+  /* border: 1px solid white; */
+  width: 30px;
+  margin-left: 9px;
+}
+.lasticons {
+  display: flex;
+  /* border: 1px solid white; */
+  width: 190px;
+  justify-content: space-around;
+  height: 30px;
+}
+.home {
+  color: white;
+}
+.mainul {
+  list-style: none;
+}
+.A {
+  /* border: 1px solid white; */
+  display: flex;
+  width: 180px;
+  justify-content: space-around;
+}
+.home {
+  position: absolute;
+  left: 80px;
+  top: 70px;
+  /* border: 1px solid white; */
+}
+.homeicon {
+  position: absolute;
+  left: 30px;
+  top: 65px;
+}
+.B {
+  /* border: 1px solid white; */
+  display: flex;
+  width: 180px;
+  justify-content: space-around;
+}
+.explore {
+  position: absolute;
+  left: 80px;
+  top: 103px;
+  color: white;
+  /* border: 1px solid white; */
+}
+.exploreicon {
+  position: absolute;
+  left: 30px;
+  top: 100px;
+}
+.C {
+  /* border: 1px solid white; */
+  display: flex;
+  width: 180px;
+  justify-content: space-around;
+}
+.shorts {
+  position: absolute;
+  left: 80px;
+  top: 138px;
+  color: white;
+  /* border: 1px solid white; */
+}
+.shortsicon {
+  position: absolute;
+  left: 30px;
+  top: 136px;
+}
+.D {
+  /* border: 1px solid white; */
+  display: flex;
+  width: 180px;
+  justify-content: space-around;
+}
+.subscribe {
+  position: absolute;
+  left: 80px;
+  top: 173px;
+  color: white;
+  /* border: 1px solid white; */
+}
+.subscribeicon {
+  position: absolute;
+  left: 30px;
+  top: 170px;
+}
+.first {
+  width: 250px;
+  position: absolute;
+  top: 205px;
+}
+.nextul {
+  list-style: none;
+}
+.E {
+  /* border: 1px solid white; */
+  display: flex;
+  width: 180px;
+  justify-content: space-around;
+}
+.library {
+  position: absolute;
+  left: 80px;
+  top: 223px;
+  color: white;
+  /* border: 1px solid white; */
+}
+.libraryicon {
+  position: absolute;
+  left: 30px;
+  top: 220px;
+}
+.F {
+  /* border: 1px solid white; */
+  display: flex;
+  width: 180px;
+  justify-content: space-around;
+}
+.history {
+  position: absolute;
+  left: 80px;
+  top: 257px;
+  color: white;
+  /* border: 1px solid white; */
+}
+.historyicon {
+  position: absolute;
+  left: 30px;
+  top: 255px;
+}
+.G {
+  /* border: 1px solid white; */
+  display: flex;
+  width: 180px;
+  justify-content: space-around;
+}
+.your_video {
+  position: absolute;
+  left: 80px;
+  top: 292px;
+  color: white;
+  /* border: 1px solid white; */
+}
+.your_videoicon {
+  position: absolute;
+  left: 30px;
+  top: 288px;
+}
+.H {
+  /* border: 1px solid white; */
+  display: flex;
+  width: 180px;
+  justify-content: space-around;
+}
+.watch_later {
+  position: absolute;
+  left: 80px;
+  top: 324px;
+  color: white;
+  /* border: 1px solid white; */
+}
+.watch_latericon {
+  position: absolute;
+  left: 30px;
+  top: 320px;
+}
+.I {
+  /* border: 1px solid white; */
+  display: flex;
+  width: 180px;
+  justify-content: space-around;
+}
+.liked {
+  position: absolute;
+  left: 80px;
+  top: 356px;
+  color: white;
+  /* border: 1px solid white; */
+}
+.likedicon {
+  position: absolute;
+  left: 30px;
+  top: 352px;
+}
+.J {
+  /* border: 1px solid white; */
+  display: flex;
+  width: 180px;
+  justify-content: space-around;
+}
+.showmore {
+  position: absolute;
+  left: 80px;
+  top: 387px;
+  color: white;
+  /* border: 1px solid white; */
+}
+.showmoreicon {
+  position: absolute;
+  left: 30px;
+  top: 385px;
+}
+.second {
+  width: 250px;
+  position: absolute;
+  top: 412px;
+}
+.lastul {
+  color: white;
+  list-style: none;
+}
+.subhead {
+  position: absolute;
+  top: 420px;
+  left: 20px;
+}
+.K {
+  /* border: 1px solid white; */
+  display: flex;
+  width: 180px;
+  justify-content: space-around;
+}
+.nadir {
+  position: absolute;
+  left: 80px;
+  top: 449px;
+  color: white;
+  /* border: 1px solid white; */
+}
+.nadiricon {
+  position: absolute;
+  left: 30px;
+  top: 448px;
+}
+.L {
+  /* border: 1px solid white; */
+  display: flex;
+  width: 180px;
+  justify-content: space-around;
+}
+.coke {
+  position: absolute;
+  left: 80px;
+  top: 483px;
+  color: white;
+  /* border: 1px solid white; */
+}
+.cokeicon {
+  position: absolute;
+  left: 30px;
+  top: 480px;
+}
+.M {
+  /* border: 1px solid white; */
+  display: flex;
+  width: 180px;
+  justify-content: space-around;
+}
+.figma {
+  position: absolute;
+  left: 80px;
+  top: 518px;
+  color: white;
+  /* border: 1px solid white; */
+}
+.figmaicon {
+  position: absolute;
+  left: 30px;
+  top: 515px;
+}
+.N {
+  /* border: 1px solid white; */
+  display: flex;
+  width: 180px;
+  justify-content: space-around;
+}
+.MKBHD {
+  position: absolute;
+  left: 80px;
+  top: 550px;
+  color: white;
+  /* border: 1px solid white; */
+}
+.MKBHDicon {
+  position: absolute;
+  left: 30px;
+  top: 548px;
+}
+.parentdiv {
+  width: 245px;
+  height: 570px;
+  /* border: 1px solid white; */
+  background-color: rgb(34, 34, 34);
+}
+.navhr {
+  width: 960px;
+  position: absolute;
+  left: 255px;
+  top: 50px;
+}
+.allbutton {
+  background-color: rgb(34, 34, 34);
+  border: 1px solid rgb(61, 61, 61);
+  border-radius: 14px;
+  color: white;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.cookstudiobutton {
+  background-color: rgb(34, 34, 34);
+  border: 1px solid rgb(61, 61, 61);
+  border-radius: 14px;
+  color: white;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+}
+
+.UXbutton {
+  background-color: rgb(34, 34, 34);
+  border: 1px solid rgb(61, 61, 61);
+  border-radius: 14px;
+  color: white;
+  width: 30px;
+  height: 30px;
+  /* display: flex; */
+  text-align: center;
+}
+.musicbutton {
+  background-color: rgb(34, 34, 34);
+  border: 1px solid rgb(61, 61, 61);
+  border-radius: 14px;
+  color: white;
+  width: 50px;
+  height: 30px;
+  /* display: flex; */
+  text-align: center;
+}
+.banglalofibutton {
+  background-color: rgb(34, 34, 34);
+  border: 1px solid rgb(61, 61, 61);
+  border-radius: 14px;
+  color: white;
+  width: 75px;
+  height: 30px;
+  /* display: flex; */
+  text-align: center;
+}
+.Tourbutton {
+  background-color: rgb(34, 34, 34);
+  border: 1px solid rgb(61, 61, 61);
+  border-radius: 14px;
+  color: white;
+  width: 47px;
+  height: 30px;
+  /* display: flex; */
+  text-align: center;
+}
+.Techbutton {
+  background-color: rgb(34, 34, 34);
+  border: 1px solid rgb(61, 61, 61);
+  border-radius: 14px;
+  color: white;
+  width: 47px;
+  height: 30px;
+  /* display: flex; */
+  text-align: center;
+}
+.saintmartinbutton {
+  background-color: rgb(34, 34, 34);
+  border: 1px solid rgb(61, 61, 61);
+  border-radius: 14px;
+  color: white;
+  width: 85px;
+  height: 30px;
+  /* display: flex; */
+  text-align: center;
+}
+.iphonebutton {
+  background-color: rgb(34, 34, 34);
+  border: 1px solid rgb(61, 61, 61);
+  border-radius: 14px;
+  color: white;
+  width: 75px;
+  height: 30px;
+  /* display: flex; */
+  text-align: center;
+}
+.userinterfacebutton {
+  background-color: rgb(34, 34, 34);
+  border: 1px solid rgb(61, 61, 61);
+  border-radius: 14px;
+  color: white;
+  width: 105px;
+  height: 30px;
+  /* display: flex; */
+  text-align: center;
+}
+.computerbutton {
+  background-color: rgb(34, 34, 34);
+  border: 1px solid rgb(61, 61, 61);
+  border-radius: 14px;
+  color: white;
+  width: 75px;
+  height: 30px;
+  /* display: flex; */
+  text-align: center;
+}
+.nav2 {
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid white; */
+  position: absolute;
+  left: 270px;
+  bottom: 410px;
+}
+.image1 {
+  /* border: 1px solid white; */
+  color: white;
+  position: absolute;
+  left: 260px;
+  top: 130px;
+  width: 242px;
+  height: 190px;
+  font-size: 9px;
+}
+.text1 {
+  display: flex;
+  justify-content: space-around;
+}
+.stext1 {
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  top: 175px;
+  left: 30px;
+}
+.firsth5 {
+  position: absolute;
+  top: 13px;
+}
+.image2 {
+  /* border: 1px solid white; */
+  color: white;
+  position: absolute;
+  left: 520px;
+  top: 130px;
+  width: 242px;
+  height: 190px;
+  font-size: 9px;
+}
+.text2 {
+  display: flex;
+  justify-content: space-around;
+}
+.stext2 {
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  top: 175px;
+  left: 30px;
+}
+.secondh5 {
+  position: absolute;
+  top: 13px;
+}
+.image3 {
+  /* border: 1px solid white; */
+  color: white;
+  position: absolute;
+  left: 780px;
+  top: 130px;
+  width: 242px;
+  height: 190px;
+  font-size: 9px;
+}
+.text3 {
+  display: flex;
+  justify-content: space-around;
+}
+.stext3 {
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  top: 175px;
+  left: 30px;
+}
+.thirdh5 {
+  position: absolute;
+  top: 13px;
+}
+.image4 {
+  /* border: 1px solid white; */
+  color: white;
+  position: absolute;
+  left: 1040px;
+  top: 130px;
+  width: 242px;
+  height: 190px;
+  font-size: 9px;
+}
+.text4 {
+  display: flex;
+  justify-content: start;
+}
+.stext4 {
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  top: 160px;
+  left: 0px;
+}
+.image5 {
+  /* border: 1px solid white; */
+  color: white;
+  position: absolute;
+  left: 260px;
+  top: 350px;
+  width: 242px;
+  height: 190px;
+  font-size: 9px;
+}
+.text5 {
+  display: flex;
+  justify-content: space-around;
+}
+.stext5 {
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  top: 175px;
+  left: 30px;
+}
+.fourthh5 {
+  position: absolute;
+  top: 13px;
+}
+.image6 {
+  /* border: 1px solid white; */
+  color: white;
+  position: absolute;
+  left: 520px;
+  top: 350px;
+  width: 242px;
+  height: 190px;
+  font-size: 9px;
+}
+.text6 {
+  display: flex;
+  justify-content: start;
+}
+.stext6 {
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  top: 160px;
+  left: 0px;
+}
+.image7 {
+  /* border: 1px solid white; */
+  color: white;
+  position: absolute;
+  left: 780px;
+  top: 350px;
+  width: 242px;
+  height: 190px;
+  font-size: 9px;
+}
+.text7 {
+  display: flex;
+  justify-content: space-around;
+}
+.stext7 {
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  top: 175px;
+  left: 30px;
+}
+.seventhh5 {
+  position: absolute;
+  top: 13px;
+}
+.image8 {
+  /* border: 1px solid white; */
+  color: white;
+  position: absolute;
+  left: 1040px;
+  top: 350px;
+  width: 242px;
+  height: 190px;
+  font-size: 9px;
+}
+.text8 {
+  display: flex;
+  justify-content: space-around;
+}
+.stext8 {
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  top: 175px;
+  left: 30px;
+}
+.seventhh5 {
+  position: absolute;
+  top: 13px;
+}
